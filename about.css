@@ -1,0 +1,102 @@
+/*This are the style for the navigation bar, from <ul> tag upto .active tag*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #CD5C5C;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #800000;
+}
+
+.active {
+  background-color: #333;
+}
+/*This is the style for the <body> tag*/
+body{
+	background-color: #FAF0E6;
+}
+/*This is for the part where columns are located*/
+* {
+  box-sizing: border-box;
+}
+/* This is to create two equal columns that floats next to each other */
+.column {
+  background-color: #aaa;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 500px; 
+}
+.picture1{
+  width: 320px;
+	height: 402px;
+	float: left;    
+  margin: -50px -10px 0 0;
+}
+.picture{
+	width: 300px;
+	height: 250px;
+}
+.fam{
+  font-size: 19px;
+  text-align: justify;
+}
+.about{
+  font-size: 19px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.column2 {
+  background-color :#bbb;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 500px; 
+  text-align: center;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.food{
+	font-size: 16px;
+  text-align: center;
+}
+.pink{
+	width: 100px;
+	height: 100px;
+}
+/*This is the style for top button*/
+.button-1{
+  float: right;
+	background-color: #FAF0E6;
+	font-weight: 1000;
+  font-size: 50px;
+}
+.button-1:hover{
+  opacity: 0.10;
+}
+/*This is the style for the <p> tag*/
+.copyrights{
+	text-align: center;
+}

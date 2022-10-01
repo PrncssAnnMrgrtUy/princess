@@ -1,0 +1,80 @@
+/*This are the style for the navigation bar, from <ul> tag upto .active tag*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #CD5C5C;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #800000;
+}
+
+.active {
+  background-color: #333;
+}
+/*This is the style for the <body> tag*/
+body{
+	background-color:#FAF0E6;
+}
+/*This is the style for the <p> tag*/
+p{
+	font-size: 20px;
+	text-align: center;
+}
+/*This is the style for the social media icons*/
+.fa {
+	text-align: center;
+  padding: 5px;
+  width: 20px;
+  border-radius: 25%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+/*This is the style for the facebook icon*/
+.fa-facebook {
+  width: 50px;
+  height: 50px;
+}
+/*This is the style for the twitter icon*/
+.fa-twitter {
+  width: 50px;
+  height: 50px;
+}
+/*This is the style for the instagram icon*/
+.fa-instagram {
+  width: 50px;
+  height: 50px;
+}
+/*This is the style for home button*/
+.button-1{
+  float: right;
+	background-color: #FAF0E6;
+	font-weight: 1000;
+  font-size: 50px;
+}
+.button-1:hover{
+  opacity: 0.10;
+}
+/*This is the style for the copyright*/
+.right{
+	text-align: center;
+}

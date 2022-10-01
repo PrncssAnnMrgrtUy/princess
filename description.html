@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="description.css">
+		<!-- This gives the browser instructions on how to control the page's dimensions and scaling -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fe7f1d9dab.js" crossorigin="anonymous"></script>
+		<title>Description</title>
+	</head>
+	
+<body>
+  <!-- This is the code for the navigation bar -->
+  <ul>
+    <li><a href="index.html"><i class="fa-sharp fa-solid fa-house" style="font-size:20px"></i>Home</a></li>
+    <li><a href="description.html"><i class="fa-sharp fa-solid fa-file-lines" style="font-size:20px"></i>Description</a></li>
+    <li><a href="about.html"><i class="fa-sharp fa-solid fa-circle-user" style="font-size:20px"></i>About</a></li>
+    <li><a href="dog.html"><i class="fa-sharp fa-solid fa-paw" style="font-size:20px"></i>Dog</a></li>
+    <li><a href="kdrama.html"><i class="fa-solid fa-tv" style="font-size:20px"></i>Kdrama</a></li>
+    <li style="float:right"><a class="active" href="contact.html"><i class="fa-sharp fa-solid fa-square-phone" style="font-size:20px"></i>Contacts</a></li>
+  </ul>
+<br>
+<br>
+<!-- This is where the info starts for this certain page -->
+<h1><i class="fa-sharp fa-solid fa-file-lines" style="font-size:26px"></i>Description</h1>
+<hr>
+<p class="des">&nbsp&nbsp&nbsp&nbsp&nbspHi! Welcome to my Personal Website. This contains some random things and information about myself.</p>
+<hr>
+<br>
+<div class="awareness">
+<!-- This is start of the code for the typewriter effect upto the closing tag of script -->
+<button onclick="typeWriter()" class="button"><i class="fa fa-toggle-right"></i> START</button>
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+var txt = 'Here are some quotation or motto, and bible verse that I find, which helped me to have a better view about life... "GOD IS GOOD ALL THE TIME, ALL THE TIME GOD IS GOOD."';
+var speed = 70;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+<!-- This is a just a short statement -->
+<div class="quote1">
+  <p><i class='fa fa-book'></i> QUOTE<br><br><strong>"Believe You Can And You're Halfway There"</strong> <br> - Theodore Roosevelt</p>
+</div>
+<div class="quote2">
+  <p><i class='fa fa-book'></i> BIBLE VERSE<br><br><strong>"I Can Do All Things Through Christ Who Strengthens Me" </strong><br> - Philippians 4:13</p>
+</div>
+<br><br><br><br><br><br><br><br><br><br>
+</div>
+<hr>
+<!-- This button will direct you back to the top of the page -->
+<button class="button-1" onclick="document.location='About.html'"><i class='fas fa-arrow-alt-circle-right'></i></button>
+<br>
+<br>
+
+<!-- This displays the copyright details -->
+<p class="copyright2022">Copyright &copy; 2022 by Princess Ann Margaret Uy</p>
+</body>
+</html>

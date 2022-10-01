@@ -1,0 +1,98 @@
+/*This are the style for the navigation bar, from <ul> tag upto .active tag*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #CD5C5C;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #800000;
+}
+
+.active {
+  background-color: #333;
+}
+/*This is the style for the <body> tag*/
+body{
+	background-color:#FAF0E6;
+}
+/*This is the style for the <tr> tag where kdramas are listed*/
+tr:nth-child(even) {
+  background-color: #DCDCDC;
+}
+tr:nth-child(odd) {
+  background-color: #FFE4E1;
+}
+.sentences{
+  font-size: 20px;
+  text-align: justify;
+}
+.dt{
+  font-size: 20px;
+}
+.link{
+	font-size: 20px;
+}
+/*This is the style for the <div> tag that contains kdramas images with link*/
+.kdrama{
+  background-color: lightgray;
+  margin: 20px;
+  padding: 20px;
+}
+/*This is the style for the kdrama pictures*/
+.picture{
+  border-radius: 20px;
+}
+.picture:hover{
+  opacity: 0.9;
+}
+.space{
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+/*This is the style for the image tag*/
+img{
+  width: 300px;
+  height: 200px;
+}
+/*This is the style for top button*/
+.button-1{
+  float: right;
+	background-color: #FAF0E6;
+	font-weight: 1000;
+  font-size: 50px;
+}
+.button-1:hover{
+  opacity: 0.10;
+}
+/*This is the style for the <p> tag*/
+.cp{
+	text-align: center;
+}

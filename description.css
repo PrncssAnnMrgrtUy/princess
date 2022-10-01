@@ -1,0 +1,90 @@
+/*This are the style for the navigation bar, from <ul> tag upto .active tag*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #CD5C5C;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #800000;
+}
+
+.active {
+  background-color: #333;
+}
+/*This is the style for the <body> tag*/
+body{
+	background-color: #FAF0E6;
+}
+/*This is the style for the <div> tag where the covid awareness part is located*/
+.awareness{
+	background-color: #FFFACD;
+}
+/*This is the style for the click me button*/
+.button{
+	background-color: #080808;
+  color: white;
+	padding: 3px;
+	font-weight: 900;
+}
+.button:hover{
+  opacity: 0.9;
+}
+.des{
+  font-size: 20px;
+}
+.quote1{
+  color: white;
+  font-size: 20px;
+  background-color: rgb(12, 41, 59);
+  float: left;
+  padding: 10px;
+  border-radius: 10px;
+	width: 46%;
+}
+.quote1:hover{
+  opacity: 0.9;
+}
+.quote2{
+  color: white;
+  font-size: 20px;
+  background-color: rgb(12, 41, 59);
+  float: right;
+  padding: 10px;
+  border-radius: 10px;
+	width: 46%;
+}
+.quote2:hover{
+  opacity: 0.9;
+}
+/*This is the style for top button*/
+.button-1{
+  float: right;
+	background-color: #FAF0E6;
+	font-weight: 1000;
+  font-size: 50px;
+}
+.button-1:hover{
+  opacity: 0.10;
+}
+/*This is the style for the <p> tag*/
+.copyright2022{
+	text-align: center;
+}
